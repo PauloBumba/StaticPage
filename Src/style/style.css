@@ -143,4 +143,75 @@
     #toggleDarkMode:hover {
       background-color: #0a58ca;
     }
-  
+    #habilidades h2 {
+    font-weight: 700;
+    color: #333;
+  }
+
+  .card {
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+
+  .card-title {
+    font-weight: 600;
+    color: #007bff;
+  }
+
+  .card-text {
+    font-size: 0.95rem;
+    color: #555;
+  }
+ #sobre-mim h2 {
+    font-weight: 700;
+    color: #333;
+  }
+
+  .card {
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  #projetos h2, #extras h2 {
+    font-weight: 700;
+    color: #333;
+  }
+
+  .card {
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+
+  .card-title {
+    color: #007bff;
+    font-weight: 600;
+  }
+
+  .card-text li {
+    margin-bottom: 0.5rem;
+    color: #555;
+    font-size: 0.95rem;
+  }
+
+  ul li  :hover{
+    background-color: #007bff;
+  }

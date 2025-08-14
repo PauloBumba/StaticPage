@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="src/styles/styles.css">
     <link rel="shortcut icon" href="Assets/Images/logo-bw.png" type="image/x-icon">
-
+   
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <link rel="stylesheet" href="../style/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -19,6 +19,7 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
         integrity="sha512-papBIEqDxk5jf0Bq88E4ry9nGv8eZT1cgnbIxmVleSxO+6QQJKbTlGZv36kBqU5+vHL6oJ+5x48jk6hXlpR5Z4g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://unpkg.com/scrollreveal"></script>
 
   
 </head>
@@ -63,113 +64,189 @@
         alt="Foto de Paulo Bumba"
         class="perfil rounded-circle"
       />
-      <p class="text-justify ">
-        Sou desenvolvedor Fullstack, com experiência prática no desenvolvimento de aplicações web modernas utilizando
-        .NET Core (C#), React.js e Next.js. Tenho domínio na criação de APIs REST, integração com bancos de dados SQL e
-        NoSQL, e aplicação de boas práticas como Clean Architecture, CQRS e princípios SOLID. Gosto de escrever código
-        limpo, construir soluções escaláveis e entregar valor real para os projetos em que atuo.
-      </p>
-    </article>
-  </section>
-
-  <section id="habilidades" class="mb-5">
-    <h2>Habilidades Técnicas</h2>
-    <div class="row">
-      <div class="col-md-6 col-lg-4 mb-3 border">
-        <h5>Frontend</h5>
-        <p>HTML5, CSS3, Sass, jQuery, JavaScript, TypeScript, Bootstrap, React.js, Next.js, Redux Toolkit, PrimeReact, PrimeFlex, Vercel (deploy contínuo)</p>
-      </div>
-      <div class="col-md-6 col-lg-4 mb-3 border">
-        <h5>Backend</h5>
-        <p>C#, .NET / ASP.NET Core, APIs RESTful, OAuth2, JWT, Identity, TDD, RabbitMQ</p>
-      </div>
-      <div class="col-md-6 col-lg-4 mb-3 border ">
-        <h5>Bancos de Dados</h5>
-        <p>SQL Server, MySQL, MongoDB (NoSQL), PostgreSQL</p>
-      </div>
-      <div class="col-md-6 col-lg-4 mb-3 border">
-        <h5>DevOps & Ferramentas</h5>
-        <p>Docker Desktop, CI/CD (GitHub Actions, GitLab CI), Git, GitHub (Git Flow, Pull Requests)</p>
-      </div>
-      <div class="col-md-6 col-lg-4 mb-3 border">
-        <h5>Arquitetura & Metodologias</h5>
-        <p>Clean Architecture, Microservices, CQRS + MediatR, DDD, SOLID, DRY, KISS, Metodologias Ágeis (Scrum)</p>
-      </div>
-      <div class="col-md-6 col-lg-4 mb-3 border">
-        <h5>UX/UI & Prototipação</h5>
-        <p>Figma, Mockflow, Uizard</p>
+     <section id="sobre-mim" class="mb-5">
+  <h2 class="mb-4 text-center">Sobre Mim</h2>
+  <div class="row justify-content-center">
+    <div class="">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <p class="card-text text-justify">
+            Sou desenvolvedor Fullstack, com experiência prática no desenvolvimento de aplicações web modernas utilizando
+            .NET Core (C#), React.js e Next.js. Tenho domínio na criação de APIs REST, integração com bancos de dados SQL e
+            NoSQL, e aplicação de boas práticas como Clean Architecture, CQRS e princípios SOLID. Gosto de escrever código
+            limpo e organizado, buscando sempre entregar soluções escaláveis e eficientes.
+          </p>
+        </div>
       </div>
     </div>
+  </div>
+</section>
+
   </section>
 
+<section id="habilidades" class="mb-5">
+  <h2 class="mb-4 text-center">Habilidades Técnicas</h2>
+  <div class="row g-4">
+    <!-- Card Frontend -->
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title text-center">Frontend</h5>
+          <p class="card-text">HTML5, CSS3, Sass, jQuery, JavaScript, TypeScript, Bootstrap, React.js, Next.js, Redux Toolkit, PrimeReact, PrimeFlex, Vercel (deploy contínuo)</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card Backend -->
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title text-center">Backend</h5>
+          <p class="card-text">C#, .NET / ASP.NET Core, APIs RESTful, OAuth2, JWT, Identity, TDD, RabbitMQ</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card Bancos de Dados -->
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title text-center">Bancos de Dados</h5>
+          <p class="card-text">SQL Server, MySQL, MongoDB (NoSQL), PostgreSQL</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card DevOps -->
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title text-center">DevOps & Ferramentas</h5>
+          <p class="card-text">Docker Desktop, CI/CD (GitHub Actions, GitLab CI), Git, GitHub (Git Flow, Pull Requests)</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card Arquitetura -->
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title text-center">Arquitetura & Metodologias</h5>
+          <p class="card-text">Clean Architecture, Microservices, CQRS + MediatR, DDD, SOLID, DRY, KISS, Metodologias Ágeis (Scrum)</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card UX/UI -->
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title text-center">UX/UI & Prototipação</h5>
+          <p class="card-text">Figma, Mockflow, Uizard</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
   <section id="projetos" class="mb-5">
-    <h2>Projetos</h2>
-    <div class="projetos-descricao mb-4">
-      <h3>Experiência Profissional</h3>
-      <h5>Desenvolvedor Fullstack – Cardápio Online 2024 – 2025</h5>
-      <ul>
-        <li>Criação de uma plataforma de cardápio digital com chat e pagamentos online.</li>
-        <li>Interface com React, Redux Toolkit, PrimeReact e PrimeFlex.</li>
-        <li>Backend com ASP.NET Core, APIs REST, SQL Server e integração com Mercado Pago.</li>
-        <li>Deploy no Vercel e uso de SignalR para chat em tempo real.</li>
-      </ul>
-
-      <h5>Desenvolvedor Frontend – BarBerGo 2024</h5>
-      <ul>
-        <li>Plataforma para agendamento de horário para barbearia.</li>
-        <li>Interfaces responsivas com React, Redux Toolkit, Bootstrap e Firebase Auth.</li>
-        <li>Integração com backend Laravel + MySQL para gerenciamento de agendamentos.</li>
-      </ul>
-
-      <h5>Desenvolvedor Backend – Equilibrium Tech 2024</h5>
-      <ul>
-        <li>Desenvolvimento de plataforma de IA para controle de tempo online de adolescentes.</li>
-        <li>APIs com ASP.NET Core, microserviços desacoplados, gráficos e relatórios interativos.</li>
-      </ul>
-
-      <h5>Desenvolvedor Fullstack – Xampz 2024 – 2025</h5>
-      <ul>
-        <li>App para gerenciamento de jogos e controle de equipes.</li>
-        <li>Frontend com HTML, CSS, Bootstrap, jQuery, JavaScript.</li>
-        <li>Backend com ASP.NET Core e SQL Server.</li>
-      </ul>
-    </div>
-    <canvas id="meuCanvas" width="200" height="200" class="d-block mx-auto mb-3"></canvas>
-  </section>
-
-  <section id="extras" class="mb-5">
-    <h2>Cursos, Prêmios & Idiomas</h2>
-    <div class="row">
-      <div class="col-md-6 mb-4">
-        <div class="card p-3 h-100 shadow-sm">
-          <h5>Cursos e Certificações</h5>
-          <ul>
-            <li>Curso de ASP.NET Core – Digital Innovation One (2022)</li>
-            <li>Curso de Banco de Dados MySQL e SQL Server – Adam Tech (2024)</li>
-            <li>Desenvolvimento Frontend com React – Udemy (2024)</li>
-            <li>Engenharia de Prompts e IA – Udemy (2024)</li>
-            <li>Bootstrap Avançado – Udemy (2024)</li>
-            <li>Curso de Padrões de Projeto – Adam Tech (2024)</li>
-            <li>Introdução ao Flask – Alura (2024)</li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-6 mb-4">
-        <div class="card p-3 h-100 shadow-sm">
-          <h5>Prêmios e Reconhecimento</h5>
-          <ul>
-            <li>Finalista no Startup Weekend – Centro de Inovação Videira (2024)</li>
-            <li>Criação de MVP funcional no evento Startup Weekend</li>
-          </ul>
-          <h5>Idiomas</h5>
-          <ul>
-            <li>Português: Nativo</li>
-            <li>Inglês: Intermediário (leitura técnica, documentação e cursos)</li>
+  <h2 class="mb-4 text-center">Projetos</h2>
+  <div class="row g-4">
+    <!-- Projeto 1 -->
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Fullstack – Cardápio Online (2024–2025)</h5>
+          <ul class="card-text">
+            <li>Plataforma de cardápio digital com chat e pagamentos online.</li>
+            <li>Frontend: React, Redux Toolkit, PrimeReact, PrimeFlex.</li>
+            <li>Backend: ASP.NET Core, APIs REST, SQL Server, integração Mercado Pago.</li>
+            <li>Deploy no Vercel e SignalR para chat em tempo real.</li>
           </ul>
         </div>
       </div>
     </div>
-  </section>
+
+    <!-- Projeto 2 -->
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Frontend – BarBerGo (2024)</h5>
+          <ul class="card-text">
+            <li>Plataforma de agendamento para barbearia.</li>
+            <li>Interfaces responsivas: React, Redux Toolkit, Bootstrap, Firebase Auth.</li>
+            <li>Backend Laravel + MySQL para gerenciamento de agendamentos.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projeto 3 -->
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Backend – Equilibrium Tech (2024)</h5>
+          <ul class="card-text">
+            <li>Plataforma de IA para controle de tempo online de adolescentes.</li>
+            <li>APIs ASP.NET Core, microserviços desacoplados, gráficos e relatórios interativos.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projeto 4 -->
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Fullstack – Xampz (2024–2025)</h5>
+          <ul class="card-text">
+            <li>App para gerenciamento de jogos e controle de equipes.</li>
+            <li>Frontend: HTML, CSS, Bootstrap, jQuery, JavaScript.</li>
+            <li>Backend: ASP.NET Core e SQL Server.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="extras" class="mb-5">
+  <h2 class="mb-4 text-center">Cursos, Prêmios & Idiomas</h2>
+  <div class="row g-4">
+    <!-- Cursos -->
+    <div class="col-12 col-md-6">
+      <div class="card h-100 shadow-sm p-3">
+        <h5 class="card-title mb-3">Cursos e Certificações</h5>
+        <ul class="card-text">
+          <li>ASP.NET Core – Digital Innovation One (2022)</li>
+          <li>Banco de Dados MySQL e SQL Server – Adam Tech (2024)</li>
+          <li>Frontend com React – Udemy (2024)</li>
+          <li>Engenharia de Prompts e IA – Udemy (2024)</li>
+          <li>Bootstrap Avançado – Udemy (2024)</li>
+          <li>Padrões de Projeto – Adam Tech (2024)</li>
+          <li>Introdução ao Flask – Alura (2024)</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Prêmios e Idiomas -->
+    <div class="col-12 col-md-6">
+      <div class="card h-100 shadow-sm p-3">
+        <h5 class="card-title mb-3">Prêmios e Reconhecimento</h5>
+        <ul class="card-text">
+          <li>Finalista no Startup Weekend – Centro de Inovação Videira (2024)</li>
+          <li>Criação de MVP funcional no evento Startup Weekend</li>
+        </ul>
+        <h5 class="card-title mt-3 mb-2">Idiomas</h5>
+        <ul class="card-text">
+          <li>Português: Nativo</li>
+          <li>Inglês: Intermediário (leitura técnica, documentação e cursos)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
   <section id="contato" class="mb-5">
     <h2>Contato</h2>
@@ -184,16 +261,16 @@
     <div class="mb-3">
       <h3>Redes Sociais</h3>
       <div class="social-icons d-flex gap-3 flex-wrap">
-        <a href="https://facebook.com/seuPerfil" target="_blank" rel="noopener noreferrer" class="facebook" aria-label="Facebook">
+        <a href="https://www.facebook.com/paulo.bumba.924716/" target="_blank" rel="noopener noreferrer" class="facebook" aria-label="Facebook">
           <i class="fab fa-facebook-square"></i>
         </a>
-        <a href="https://www.facebook.com/paulo.bumba.924716/" target="_blank" rel="noopener noreferrer" class="instagram" aria-label="Instagram">
+        <a href="https://www.instagram.com/paulo_bumbaa/" target="_blank" rel="noopener noreferrer" class="instagram" aria-label="Instagram">
           <i class="fab fa-instagram"></i>
         </a>
         <a href="https://www.linkedin.com/in/paulo-m%C3%A1rio-valente-bumba-126405260/" target="_blank" rel="noopener noreferrer" class="linkedin" aria-label="LinkedIn">
           <i class="fab fa-linkedin"></i>
         </a>
-        <a href="https://github.com/seuUsuario" target="_blank" rel="noopener noreferrer" class="github" aria-label="GitHub">
+        <a href="https://github.com/PauloBumba" target="_blank" rel="noopener noreferrer" class="github" aria-label="GitHub">
           <i class="fab fa-github"></i>
         </a>
       </div>
@@ -201,73 +278,16 @@
   </section>
 </main>
 
-<footer class="bg-dark text-white text-center py-3">
+<footer class="bg-primary text-white text-center py-3">
   <p>&copy; 2025 Paulo Bumba - Todos os direitos reservados</p>
 </footer>
 
 <!-- Bootstrap JS Bundle (Popper + Bootstrap) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-<script>
-  // Dark mode toggle
-  const toggleDarkModeBtn = document.createElement('button');
-  toggleDarkModeBtn.id = 'toggleDarkMode';
-  toggleDarkModeBtn.setAttribute('aria-label', 'Alternar modo escuro');
-  toggleDarkModeBtn.innerHTML = '<i class="fas fa-moon"></i>';
-  document.body.appendChild(toggleDarkModeBtn);
-
-  function applyDarkMode(isDark) {
-    if (isDark) {
-      document.body.classList.add('dark-mode');
-      toggleDarkModeBtn.innerHTML = '<i class="fas fa-sun"></i>';
-    } else {
-      document.body.classList.remove('dark-mode');
-      toggleDarkModeBtn.innerHTML = '<i class="fas fa-moon"></i>';
-    }
-  }
-
-  // Load saved preference
-  const savedTheme = localStorage.getItem('darkMode');
-  applyDarkMode(savedTheme === 'true');
-
-  toggleDarkModeBtn.addEventListener('click', () => {
-    const isDark = document.body.classList.toggle('dark-mode');
-    localStorage.setItem('darkMode', isDark);
-    applyDarkMode(isDark);
-  });
-
-  // Saudação no formulário
-  document.getElementById('formContato').addEventListener('submit', function (e) {
-    e.preventDefault();
-    const nome = document.getElementById('nome').value.trim();
-    if (nome) {
-      alert(`E aí, ${nome}! Bem-vindo ao meu portfólio! 🚀`);
-    } else {
-      alert('Fala aí, não esquece de digitar seu nome! 😎');
-    }
-  });
-
-  // Desenho simples no canvas
-  const canvas = document.getElementById('meuCanvas');
-  const ctx = canvas.getContext('2d');
-
-  // Fundo
-  ctx.fillStyle = '#0d6efd';
-  ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-  // Círculo branco
-  ctx.beginPath();
-  ctx.arc(canvas.width / 2, canvas.height / 2, 70, 0, Math.PI * 2);
-  ctx.fillStyle = '#fff';
-  ctx.fill();
-
-  // Texto estiloso
-  ctx.fillStyle = '#0d6efd';
-  ctx.font = 'bold 20px Arial';
-  ctx.textAlign = 'center';
-  ctx.textBaseline = 'middle';
-  ctx.fillText('Paulo', canvas.width / 2, canvas.height / 2 - 10);
-  ctx.fillText('Bumba', canvas.width / 2, canvas.height / 2 + 20);
+<script src="../Js/script.js">
+ 
+  
 </script>
 </body>
 </html>
